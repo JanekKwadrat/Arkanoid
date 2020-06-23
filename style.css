@@ -1,0 +1,141 @@
+body
+{
+	margin: 0;
+	background-color: #001630;
+	color: white;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+#wrapper
+{
+	width: 940px;
+	height: 608px;
+	
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#canvas
+{
+	background-color: #c8c8c8;
+	border: 4px solid #c0c0c0;
+	border-radius: 10px;
+	
+	width: 600px;
+	height: 600px;
+	
+	position: relative;
+	overflow: hidden;
+	
+	float:left;
+}
+
+#canvas .game_element
+{
+	position: absolute;
+	box-sizing: border-box;
+}
+
+#canvas .ball
+{
+	background-color: #eb4034;
+	border: 3px solid #db3024;
+	border-radius: 50%;
+	
+	width: 20px;
+	height: 20px;
+	
+	z-index: 100;
+}
+
+#canvas .pad
+{
+	background-color: #4287f5;
+	border: 3px solid #3277e5;
+	border-radius: 2px;
+	
+	width: 120px;
+	height: 30px;
+	
+	z-index: 101;
+}
+
+#canvas .box
+{
+	background-color: #40eb34;
+	border: 3px solid #30db24;
+	border-radius: 2px;
+	
+	width: 60px;
+	height: 60px;
+	
+	z-index: 99;
+}
+
+#menu
+{
+	background-color: black;
+	border-radius: 10px;
+	
+	padding-top: 100px;
+	
+	margin-left: 20px;
+	width: 308px;
+	height: 508px;
+	
+	float:left;
+	vertical-align: middle;
+}
+
+#menu *
+{
+	display: block;
+}
+
+#menu h1
+{
+	text-align: center;
+	font-family: 'Freckle Face', cursive;
+	padding: 15px;
+	font-size: 30px;
+	margin: 10px;
+	letter-spacing: 3px;
+}
+
+#menu #score
+{
+	padding: 20px;
+	font-size: 20px;
+	margin: 10px;
+	
+	text-align: center;
+}
+
+#menu #newgame, #start
+{
+	background-color: #404040;
+	border-radius: 10px;
+	
+	padding: 20px;
+	font-size: 20px;
+	margin: 10px;
+	
+	text-align: center;
+	
+	cursor: pointer;
+	transition: all 1s;
+}
+
+#menu #newgame:hover, #start:hover
+{
+	background-color: #303030;
+}
+
+/*
+font-family: 'Freckle Face', cursive;
+font-family: 'Hammersmith One', sans-serif;
+*/
+/*fajne kolory
+#4287f5
+*/
